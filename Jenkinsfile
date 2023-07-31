@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo "Version check.."
                 bat '''
-                python3 --version
+                C:\Users\ZEG\AppData\Local\Programs\Python\Python311\python.exe --version
                 '''
             }
         }
