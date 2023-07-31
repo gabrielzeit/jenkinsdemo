@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 bat '''
-                python3 helloworld.py
+                C:/Users/ZEG/AppData/Local/Programs/Python/Python311/python.exe helloworld.py
                 '''
             }
         }
