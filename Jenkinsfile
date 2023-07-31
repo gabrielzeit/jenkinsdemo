@@ -4,7 +4,7 @@ pipeline {
         stage('version') {
             steps {
                 echo "Version check.."
-                sh '''
+                bat '''
                 python3 --version
                 '''
             }
@@ -12,7 +12,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Testing.."
-                sh '''
+                bat '''
                 python3 helloworld.py
                 '''
             }
